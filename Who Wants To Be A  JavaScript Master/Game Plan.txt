@@ -1,0 +1,34 @@
+STEP 1:
+   *BUILD THE HTML & CSS
+    -Main section for the question and 4 answers
+     -1 div for question
+     -4 buttons for answers
+    -Aside left section for 3 jokers
+    -Aside right section for progress tracking
+     -4 easy questions 10pts white background
+     -4 medium questions 20pts yellow background
+     -4 hard questions 30pts light red background
+     -1 extra hard 50pts hard red background
+     -Minimum score to pass is 150pts
+     -Every question gets green background if correct or red if incorrect
+    -A container above the question for the score
+     -Message under the score: "150 points required to pass"
+
+STEP 2:
+    *JavaScript
+    -Select all elements required
+    -QUESTIONS:
+       -Make 4 arrays with 4 or more questions for each difficulty
+       -Questions 1-4 display random easy question with 4 answers (only 1 correct, +10pts)
+       -Questions 5-8 display random medium question with 4 answers (only 1 correct, +20pts)
+       -Questions 9-1 display random hard question with 4 answers (only 1 correct, +30pts)
+       -Question 12 display random legenday question with 4 answers (only 1 correct, +50pts)
+       -Questions initially starting with white, yellow or red background(refer to HTML)
+        -Questions change background color to green if correct or red if incorrect
+    -ANSWERS:
+    -JOKERS:
+    -SCORE:
+    -FINAL MESSAGE:
+
+    
+

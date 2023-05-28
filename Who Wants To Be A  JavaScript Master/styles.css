@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  background-image: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  line-height: 3;
+}
+
+a {
+  font-size: large;
+  color: blue;
+}
